@@ -7,7 +7,10 @@ from ..database import DatabaseConnection
 
 @pytest.fixture
 def mocked_db():
-    return Mock(spec=DatabaseConnection)
+    return Mock(spec=DatabaseCongit nection)
+
+
+#testing comment
 
 
 def test_find_calories_by_ingredient(mocked_db):
